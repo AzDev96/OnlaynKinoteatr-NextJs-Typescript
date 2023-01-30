@@ -5,7 +5,7 @@ import Navigation from "./Navigation/Navigation";
 
 import styles from "./Layout.module.scss";
 
-const Layout: FC = ({children}) => {
+const Layout: FC = ({ children }: any) => {
   return (
     <div className={styles.layout}>
       <Navigation />
