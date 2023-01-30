@@ -6,7 +6,7 @@ import { toastError } from '@/utils/api/withToastrErrorRedux'
 
 import { getGenreUrl } from '@/configs/url.config'
 
-import { IMenuItem } from '../menu.types'
+import { IMenuItem } from '../menu/menu.types'
 
 export const usePopularGenres = () => {
 	const queryData = useQuery(

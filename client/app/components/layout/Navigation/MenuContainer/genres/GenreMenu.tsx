@@ -1,6 +1,6 @@
 import SkeletonLoader from '@/ui/skeleton-loader/SkeletonLoader'
 
-import Menu from '../Menu'
+import Menu from '../menu/Menu'
 
 import { usePopularGenres } from './usePopularGenres'
 

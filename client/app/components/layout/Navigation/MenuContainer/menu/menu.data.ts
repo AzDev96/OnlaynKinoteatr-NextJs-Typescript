@@ -1,6 +1,6 @@
 import { IMenu } from './menu.types'
 
-const firstMenu: IMenu = {
+export const firstMenu: IMenu = {
 	title: 'Menu',
 	items: [
 		{
