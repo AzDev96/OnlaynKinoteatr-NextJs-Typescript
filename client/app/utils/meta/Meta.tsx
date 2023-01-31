@@ -14,7 +14,7 @@ export const Meta: FC<ISeo> = ({
 	description,
 	image = null,
 	children,
-}) => {
+}:any) => {
 	const { asPath } = useRouter()
 	const currentUrl = `${process.env.APP_URL}${asPath}`
 
